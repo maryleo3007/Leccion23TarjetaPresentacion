@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.content{
+  margin: auto;
+  padding: auto;
+  width: 500px;
+  height: 300px;
+}
+.img-content{
+  position: relative;
+
+}
+.content-information{
+  z-index: 1000;
+  position: absolute;
+  left: 50%;
+  width: 250px;
+  height: 0px;
+  border-left: 160px solid transparent;
+  border-bottom: 318px solid #3C3C3B;
+  top: 6px;
+}
+.logoLab{
+  height: 80px;
+  width: 160px;
+  z-index: 3000;
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+.name-information h1{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 24px;
+}
+.name-information span{
+  color: #E9A428;
+  font-size: 12px
+}
+.contact-information{
+  color: white;
+  position: absolute;
+  left: -50px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.iconlab{
+  position: absolute;
+  bottom: -83px;
+  right: -71px;
+  z-index: 6000;
+}
